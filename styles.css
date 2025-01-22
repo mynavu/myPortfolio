@@ -1,0 +1,205 @@
+@import url('https://fonts.cdnfonts.com/css/nouveau-ibm');
+@import url('https://fonts.cdnfonts.com/css/flexi-ibm-vga-true');
+@import url('https://fonts.cdnfonts.com/css/flexi-ibm-vga-false');
+
+html {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+}
+
+
+body {
+    background: black;
+    color: white;
+}
+
+* {
+      scroll-behavior: smooth;
+}
+
+
+header {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    color: grey;
+    border-bottom: white 3px solid;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
+}
+
+.textBox {
+    grid-column: 1;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.mainContainer img {
+    grid-column: 2;
+    display: block;
+    width: 40vw;
+    height: auto;
+
+}
+
+header h4:hover {
+    color: #fcf87e;
+}
+
+.fab, .bi {
+    font-size: 50px;
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+
+.bigger-fab {
+    font-size: 80px !important;
+}
+
+.fab:hover, .bi:hover {
+    transform: scale(120%);
+}
+
+.glow:hover {
+    color: #fcf87e;
+}
+
+.yellow {
+    color: #fcf87e;
+}
+
+.small {
+    font-size: 25px !important;
+
+}
+
+.programmingLangs {
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 80px;
+}
+
+.containerTwo {
+    grid-column: 2;
+    border-left: 2px white solid;
+}
+
+.large {
+    font-size: 50px;
+}
+
+.containerOne {
+    grid-column: 1;
+    border-right: 2px white solid;
+
+}
+a {
+    display: inline-flex; /* Ensures the anchor behaves like a container for the icon */
+    align-items: center; /* Vertically centers the content inside the anchor */
+    justify-content: center; /* Optional: centers content horizontally */
+    text-decoration: none; /* Removes underline */
+    color: inherit;
+}
+
+i {
+    vertical-align: middle; /* Ensures the icon aligns properly with text baseline */
+}
+
+
+a:visited {
+    color: inherit;
+}
+
+
+.professionalSkills {
+    display: flex;
+    flex-direction: columns;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.highlight {
+    padding: 10px;
+    width: 90%;
+}
+
+section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+hr {
+    border: white 2px solid;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.black {
+    color: black;
+}
+
+.centered {
+    text-align: center;
+}
+
+.projectsContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project h3,
+.project h5 {
+    margin: 5px; /* Removes all margins */
+}
+
+
+.project {
+    height: 350px;
+    width: 300px;
+    background: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    padding: 20px;
+    border: black 5px solid;
+}
+
+.project:hover {
+    box-shadow: 10px 10px 0 0px #fcf87e;
+}
+
+.allSkills {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
